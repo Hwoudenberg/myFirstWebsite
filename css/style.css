@@ -4,7 +4,7 @@ html {
     text-align: center;
     margin: 0 auto;
     padding: 0;
-    background: url(../img/background.jpg) repeat center center #fff;
+    background: url(../img/background.jpg) repeat center center #000;
     overflow: scroll;
 }
 
@@ -21,16 +21,16 @@ body {
 }
 
 a:link {
-    color: #CF7F18;
+    color: #000;
 }
 
 a:visited {
-    color: #AD660C;
+    color: #000;
 }
 
 a:hover,
 a:focus {
-    color: #FF9814;
+    color: (#000);
     text-decoration: none;
 }
 
@@ -53,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #9CA716;
+    color: #fff;
     margin-bottom: 0.5em;
 }
 
@@ -108,6 +108,9 @@ ol li ol li ol li {
 
 ul li {
     list-style: disc;
+    right: 53%;
+    margin: 100 0 0 -110px;
+    top: 45px;
 }
 
 em {
@@ -133,9 +136,9 @@ strong em {
     background: #fff;
     top: 50%;
     margin: -100px 0 0 0;
-    border: solid #E69623;
+    border: solid #fff;
     border-width: 3px 0 3px 0;
-    opacity: 0.90;
+    opacity: .70;
     -moz-opacity: 0.90;
     filter: alpha(opacity=90);
 }
@@ -147,8 +150,8 @@ strong em {
     height: 144px;
     background: url(../img/ohlalala.png) no-repeat 0 0;
     left: 50%;
-    margin: 0 0 0 -280px;
-    top: 15px;
+    margin: 0 0 0 -200px;
+    top: -30px;
     text-indent: 999em;
     line-height: 999em;
 }
@@ -158,8 +161,8 @@ strong em {
     display: block;
     width: 660px;
     left: 50%;
-    margin: 0 0 0 -282px;
-    padding: 15px 0;
+    margin: 0 0 0 -160px;
+    padding: 40px 0;
     top: 60px;
 }
 
