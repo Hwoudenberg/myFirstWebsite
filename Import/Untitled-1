@@ -1,2 +1,0 @@
-cd path/to/files
-python -mSimpleHTTPServer
