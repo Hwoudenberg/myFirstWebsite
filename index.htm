@@ -3,17 +3,21 @@
 <html>
 
 <head>
-    <title>Website</title>
+    <title>Webiste</title>
     <meta charset="UTF-8">
     <meta name="description" content="Hannah Woudenberg's homepage">
     <meta name="keywords" content="HTML,CSS,XML,JavaScript">
     <meta name="author" content="Hannah Woudenberg">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" charset="utf-8" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
-    <script>
-        $(function () {
-            $("#include").load("import/include.htm");
-        });
+
+    <script src="js/jquery.js"></script>
+    <script src="js/include.js"></script>
+
+    <script src="js/processing" type="text/javascript"></script>
+    <script type="text/javascript">
+        function getProcessingSketchId() {
+            return 'bg';
+        }
     </script>
 </head>
 
@@ -21,14 +25,12 @@
 
     <div id="container">
         <div id="include"></div>
-
+        <canvas id="mr_bg" data-processing-sources="pde/mr_bg/mr_bg.pde" width="1280" height="900"></canvas>
 
         <div id="content">
-
-            <p> </p>
+            <br></br>
+            <p>S3RL is my only love. This is where I keep my work for Art of Computing.</p>
         </div>
-
-
     </div>
 
 </body>

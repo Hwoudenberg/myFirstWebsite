@@ -1,3 +1,6 @@
-        $(function () {
-            $("#include").load("import/include.htm");
-        });
+/*jsLint browse: true*/
+/*global $, jQuery, alert*/
+$(function () {
+    'use strict';
+    $("#include").load("import/include.htm");
+});
